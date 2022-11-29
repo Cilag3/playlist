@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Lista de música</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="image-form">
+        <img
+          src="img/playlist.svg"
+          alt="Desenho de menino com play de musica ao lado"
+        />
+      </div>
+
+      <div class="main-content-container">
+        <form class="form" action="#">
+          <div class="son-content-container">
+            <div class="grandson-content-container">
+              <label for="nameMusic">Nome da música</label>
+              <input id="nameMusic" type="text" />
+            </div>
+
+            <div class="grandson-content-container">
+              <label for="nameSinger">Nome do Cantor</label>
+              <input id="nameSinger" type="text" />
+            </div>
+
+            <div class="grandson-content-container">
+              <label for="time">Tempo da música</label>
+              <input id="time" type="text" />
+            </div>
+          </div>
+
+          <div class="button-container">
+            <button onclick="adicionar()">Adicionar</button>
+          </div>
+        </form>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Nome:</th>
+              <th>Nome da Música:</th>
+              <th>Tempo da música:</th>
+            </tr>
+          </thead>
+
+          <tbody  id="playList"></tbody>
+        </table>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
