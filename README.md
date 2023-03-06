@@ -1,6 +1,6 @@
 <h1 align="center"> Playlist </h1>
 O objetivo desse projeto era praticar: <br/>
-  - Criação de contreúdos em containers com tags html; <br/>
+  - Criação de conteúdos em containers com tags html; <br/>
   - Criar tabelas; <br/>
   - Alinhamento e posicionamento com flexbox; <br/>
   - Primeiro contato com métodos de array (forEach()); <br/>
